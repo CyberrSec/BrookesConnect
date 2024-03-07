@@ -1,0 +1,146 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Researchers & Industries Collaboration</title>
+    <link rel="stylesheet" href="{% static "users/styles.css"%}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="{% static "users/images/logo.png"%}" alt="Logo">
+            </div>
+            <h1>  BrookesConnect </h1>
+            <nav>
+                <ul>
+                    <li><a href="chats">Chats</a></li> <!-- Redirect to Chats(Explore Collaboration)-->
+                    <li><a href="#cctiveProjects">Active Projects</a></li>
+                    <li><a href="#projects">Projects</a></li> <!-- redirects to ,same as ONGOING PROJECT BUTTON -->
+                    <li><a href="#researchers">Researchers</a></li> <!-- redirect to RESEEARCHERS PROFILE -->
+                    <!--<li><a href="#Account">Account</a></li>-->
+                    
+                    <select id="account">
+                        <option value="all">ACCOUNT</option>
+                        <option value="AI">Profile</option>
+                        <option value="Logout">Logout</option>
+                    </select>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- ----------------------HEADER END------------------------- -->
+    <section class="hero">
+        <div class="container">
+            <div class="logo">
+                <a href=file:///C:/BROOKES/GROUP%20PROJECT/Landing%20Page/index_files/RP1.pdf><img src="{% static "users/images/RP1.png"%}" alt="Paper1"> </a>
+                <a href=file:///C:/BROOKES/GROUP%20PROJECT/Landing%20Page/index_files/RP1.pdf><img src="{% static "users/images/RP2.png"%}"  alt="Paper2"> </a>
+</div>
+            <section class="featured-projects">
+                <!-- Top 2 research Papers to Display -->
+                <div class="container">
+                    <h2>Featured Projects</h2>
+                    <div class="project-card">
+                        <h3>Project Title 1</h3>
+                        <p>Description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Title 2</h3>
+                        <p>Description of Project 2. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+            </section>
+            <!--Button to see the Ongoing Projects.-->
+            <a href="#" class="btn">Explore Projects</a>
+        </div>
+    </section>
+    <!-- ----------------------MAIN DISPLAY END------------------------- -->
+
+    <section class="search-filter">
+        <div class="container">
+            <h2>Search and Filter Research Projects</h2>
+            <div class="search-bar">
+                <input type="text" placeholder="Enter keywords...">
+                <button>Search</button>
+            </div>
+            <div class="filter-options">
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option value="all">All</option>
+                    <option value="AI">AI</option>
+                    <option value="motorsports">Motorsports</option>
+                    <option value="analytics">Analytics</option>
+                    <option value="ML">Machine Learning</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------SEARCH END------------------------- -->
+
+    <section class="researcher-profiles">
+        <div class="container"> <!--contains top most research publishers-->
+            <h2>Academic Researchers</h2>
+            <div class="profile-card">
+                <h3>John Doe</h3>
+                <p>Expertise: Data Science, Machine Learning</p>
+                <p>Publications: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Contact: john.doe@example.com</p>
+                <a href="#" class="btn">View Profile</a>
+            </div>
+            <div class="profile-card">
+                <h3>Jane Smith</h3>
+                <p>Expertise: Artificial Intelligence, Natural Language Processing</p>
+                <p>Publications: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p>Contact: jane.smith@example.com</p>
+                <a href="#" class="btn">View Profile</a>
+            </div>
+            <div class="profile-card">
+                <h3>Jane Smith</h3>
+                <p>Expertise: Artificial Intelligence, Natural Language Processing</p>
+                <p>Publications: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p>Contact: jane.smith@example.com</p>
+                <a href="#" class="btn">View Profile</a>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------RESEEARCHER-PROFILE END------------------------- -->
+
+    <section class="communication-collaboration">
+        <div class="container">
+            <h2>Communication and Collaboration</h2>
+            <p>The platform facilitates seamless communication and collaboration between industry and academia.</p>
+            <p>Features include messaging, networking opportunities, and discussion forums.</p>
+            <a href="#" class="btn">Explore Collaboration</a>   <!-- Chat options for Industry People -->
+        </div>
+    </section>
+
+    <!-- ----------------------CHAT SECTION END------------------------- -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="index_files/logo.png" alt="Logo" class="footer-logo">
+            </div>
+            <div class="footer-contact">
+                <p>Contact us:</p>
+                <p>Email: contact@brookes.com</p>
+                <p>Phone: +1234567890</p>
+                <p>Address: Oxford Brookes University, Wheatley, Oxford, United Kingdom</p>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Other sections of the webpage will go here -->
+</body>
+</html>

@@ -1,0 +1,408 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #454545;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  width: 230px;
+  height: fit-content;
+}
+
+.footer-logo {
+  width: fit-content;
+  height: fit-content;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffa500;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background-color: #afadad;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffa500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff8c00;
+}
+
+.container {
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.paper {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.paper1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.paper2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.search-filter {
+  background-color: #222;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.search-filter .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-filter h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #ff8c00;
+}
+
+.filter-options {
+  margin-bottom: 20px;
+}
+
+.filter-options label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.filter-options select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.featured-projects {
+  background-color: #c42300;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.featured-projects .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featured-projects h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background-color: #333;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.project-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.project-card .btn {
+  padding: 10px 20px;
+  background-color: #ffa500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.project-card .btn:hover {
+  background-color: #ff8c00;
+}
+
+.researcher-profiles {
+  background-color: #afadad;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.researcher-profiles .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.researcher-profiles h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.profile-card {
+  background-color: #333;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.profile-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.profile-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.profile-card .btn {
+  padding: 10px 20px;
+  background-color: #ffa500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.profile-card .btn:hover {
+  background-color: #ff8c00;
+}
+
+.communication-collaboration {
+  background-color: #222;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.communication-collaboration .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.communication-collaboration h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.communication-collaboration p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.communication-collaboration .btn {
+  padding: 10px 20px;
+  background-color: #ffa500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.communication-collaboration .btn:hover {
+  background-color: #ff8c00;
+}
+.communication-collaboration {
+  background-color: #222;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.communication-collaboration .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.communication-collaboration h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.communication-collaboration p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.communication-collaboration .btn {
+  padding: 10px 20px;
+  background-color: #ffa500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.communication-collaboration .btn:hover {
+  background-color: #ff8c00;
+}
+
+.featured-projects {
+  background-color: #222;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.featured-projects .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featured-projects h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background-color: #333;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.project-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.project-card .btn {
+  padding: 10px 20px;
+  background-color: #ffa500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.project-card .btn:hover {
+  background-color: #ff8c00;
+}
+footer {
+  background-color: #4f4f4f;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-logo img {
+  width: 200px;
+}
+
+footer .footer-contact p {
+  margin: 5px 0;
+}
+
+footer .footer-social .social-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer .footer-social .social-link:hover {
+  color: #ffa500;
+}
